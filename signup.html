@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="validation.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <p id="error-message"></p>
+        <form id="form">
+            <div>
+                <label for="firstname-input">
+                    <img src="/img/person.svg" alt="">
+                </label>
+                <input type="text" name="firstname" placeholder="Firstname" id="firstname-input">
+            </div>
+            <!-- <div>
+                <input type="text" name="lastname" placeholder="Lastname" id="lastname-input">
+            </div> -->
+            <div>
+                <label for="email-input">
+                    <img src="/img/mail.svg" alt="">
+                </label>
+                <input type="email" name="email" placeholder="Email" id="email-input">
+            </div>
+            
+            <div>
+                <label for="password-input">
+                    <img src="/img/lock.svg" alt="">
+                </label>
+                <input type="password" name="password" placeholder="Password" id="password-input">
+            </div>
+            <div>
+                <label for="repeat-password-input">
+                    <img src="/img/lock.svg" alt="">
+                </label>
+                <input type="password" name="repeat-password" placeholder="Password" id="repeat-password-input">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+</body>
+</html>
